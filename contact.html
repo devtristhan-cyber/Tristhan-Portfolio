@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Tristhan Rocero</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+
+<body>
+
+<header class="navbar">
+
+    <a class="logo" href="index.html">
+        TR<span>.</span>
+    </a>
+
+    <button class="menu-btn"
+            onclick="toggleMenu()">
+        ☰
+    </button>
+
+    <nav id="navMenu">
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="gallery.html">
+            Gallery
+        </a>
+
+        <a href="journey.html">
+            Journey
+        </a>
+
+        <a class="active"
+           href="contact.html">
+            Contact
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main class="page">
+
+
+<section class="page-heading">
+
+    <p class="eyebrow">
+        GET IN TOUCH
+    </p>
+
+    <h1>
+        Contact Me
+    </h1>
+
+    <p>
+        Have a question, project idea,
+        or simply want to connect?
+        Send me a message.
+    </p>
+
+</section>
+
+
+<section class="contact-grid">
+
+
+<div class="contact-info">
+
+
+    <div class="card contact-card">
+
+        <span>📧</span>
+
+        <div>
+
+            <h3>Email</h3>
+
+            <p>
+                dev.tristhan@gmail.com
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="card contact-card">
+
+        <span>📱</span>
+
+        <div>
+
+            <h3>Phone</h3>
+
+            <p>
+                0953 2259 591
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="card contact-card">
+
+        <span>📍</span>
+
+        <div>
+
+            <h3>Location</h3>
+
+            <p>
+                Negros Occidental, Philippines
+            </p>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+<form class="contact-form"
+      onsubmit="sendMessage(event)">
+
+
+    <label for="name">
+        Name
+    </label>
+
+    <input
+        id="name"
+        type="text"
+        placeholder="Your name"
+        required
+    >
+
+
+    <label for="email">
+        Email
+    </label>
+
+    <input
+        id="email"
+        type="email"
+        placeholder="your@email.com"
+        required
+    >
+
+
+    <label for="message">
+        Message
+    </label>
+
+    <textarea
+        id="message"
+        rows="6"
+        placeholder="Write your message..."
+        required>
+    </textarea>
+
+
+    <button
+        class="btn primary"
+        type="submit">
+
+        Send Message
+
+    </button>
+
+
+    <p id="formMessage"
+       class="form-message">
+    </p>
+
+
+</form>
+
+
+</section>
+
+</main>
+
+
+<footer>
+    © 2026 Tristhan Rocero • Contact
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
