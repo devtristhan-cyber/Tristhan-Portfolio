@@ -221,7 +221,22 @@ h3 {
     color: #aeb8d0;
 }
 
+.profile-placeholder {
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
 
+.profile-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 20px;
+}
 /* GENERAL SECTIONS */
 
 .section,
