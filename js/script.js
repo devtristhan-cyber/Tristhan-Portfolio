@@ -1,12 +1,3 @@
-// Required JavaScript concepts:
-// let
-// const
-// if / else
-// for
-// while
-// function
-
-
 // CONST
 const siteName = "Tristhan's Portfolio";
 
